@@ -1,0 +1,462 @@
+
+
+body{
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: rgb(142, 56, 168);
+    width: 100vw;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.bar{
+    background-color: rgb(139, 100, 100);
+    width: 100vw;
+    box-shadow: 3px 3px 10px grey;
+    width: 100vw;
+    padding-top: 0.6em;
+    z-index: 200;
+    position: fixed;
+}
+nav{
+    display: flex;
+    gap: 47em;
+}
+nav>img{
+    height: 2.5em;
+}
+ul{
+    display: flex;
+    gap: 5em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+
+
+}
+nav>ul {
+    display: flex;
+    gap: 2.8em;
+    color: white;
+}
+
+nav>ul>li {
+    list-style-type: none;
+}
+nav>ul>li>a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: 0.5s;
+}
+
+nav>ul>li>a:hover{
+    color:white;
+    background-color: blue;
+    transform: scale(0.9);
+}
+
+nav>ul>button {
+    background-color: brown;
+    width: 7em;
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: 0.5s;
+}
+nav>ul>button:hover{
+    color: blue;
+    background-color: blue;
+    transform: scale(0.9)translateY(-7px);
+}
+
+nav>ul>button>a{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+.page1{
+    width: 100vw;
+    box-shadow: 7px 7px 15px grey;
+    width: 100vw;
+    height: 55vh;
+    padding-top: 0.6em;
+    z-index: 200;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+
+}
+
+.page1>h1{
+    position: relative;
+    left: 5em;
+    top: 3em;
+}
+.page1>p{
+    position: relative;
+    left: 10em;
+    top: 6em;
+}
+
+.page1>button>a{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+.page1>button{
+    background-color: brown;
+    width: 14em;
+    position: relative;
+    left: 10em;
+    top: 9em;
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: 0.5s;
+    
+}
+.page1>button:hover{
+    color: blue;
+    background-color: blue;
+    transform: scale(0.9)translateY(-15px);
+}
+
+
+.page2{
+    width: 100vw;
+    box-shadow: 7px 7px 17px grey;
+    width: 100vw;
+    height: 50vh;
+    padding-top: 0.6em;
+    z-index: 200;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    background-color: white;
+}
+.page2>h1{
+    position: relative;
+    left: 16em;
+}
+.page2>p{
+    position: relative;
+    left: 3em;
+}
+
+.page2>button{
+    position: relative;
+    left: 25em;
+    top: 4em;
+    background-color: burlywood;
+    width: 18em;
+    border-radius: 1em;
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: 0.5s;   
+}
+.page2>button:hover{
+    color:white;
+    background-color: blue;
+    transform: scale(0.8)translateY(-15px);
+}
+
+
+.page2>button>a{
+    text-decoration: none;
+    color: wheat;
+}
+
+h1{
+    padding-top: 2em;
+    position: relative;
+    left: 16em;
+}
+.page3{
+    margin: auto;
+    text-align: center;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: 2em;
+    background-color: whitesmoke;
+    width: 80vw;
+    box-shadow: 7px 7px 17px grey;
+    width: 80vw;
+    height: 100vh;
+    padding-top: 0.6em;
+    z-index: 200;
+}
+
+
+.p1{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 13em;
+}
+.part1{
+    position: relative;
+    left: -1.8em;
+}
+.part2>p{
+   position: relative;
+   left: -2.8em;
+}
+.part3>h2{
+    position: relative;
+    left: -1em;
+}
+.part3>p{
+    position: relative;
+    left: -4.8em;
+}
+.part4{
+    position:relative ;
+    left: -1.8em;
+}
+.part4>h2{
+    position: relative;
+    left: -3em;
+}
+.part4>p{
+position: relative;
+left: -3.8em;
+}
+
+.part5{
+    position: relative;
+    left: -4em;
+}
+.part5>h2{
+    position: relative;
+    left: -2em;
+}
+
+.part6{
+    position: relative;
+    left: -3.8em;
+}
+.part6>h2{
+    position: relative;
+    left: -2em;
+}
+
+.p2{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 13em;
+}
+
+.p3{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 13em;
+}
+.page4{
+    padding-top: 7em;
+}
+
+.a1{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 7em;
+}
+
+.a2{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 7em;
+}
+
+.a3{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 7em;
+}
+
+.a4{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 7em;
+}
+
+.a5{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 7em;
+}
+
+.a6{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 7em;
+}
+
+.about{
+    position: relative;
+    left: -3em;
+}
+.team{
+    position: relative;
+    left: 0.5em;
+}
+.career{
+    position: relative;
+    left: -0.8em;
+}
+.blog{
+    position: relative;
+    left: 0.2em;
+}
+
+.news{
+    position: relative;
+    left: 18.4em;
+}
+.desktop{
+    position: relative;
+    left: 2.8em;
+}
+.logo{
+    position: relative;
+    left: 0.2em;
+}
+.mobile{
+    position: relative;
+    left: 2.5em;
+}
+.graphic{
+    position: relative;
+    left: 11em;
+}
+
+.copy{
+    padding-left: 3em;
+    position: relative;
+    left: 13em;
+    top: 4em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+.copy>a{
+    text-decoration: none;
+}
+.social{
+    padding-top:2em ;
+    padding-left: 5em;
+    gap: 3em;
+    position: relative;
+    left: 45em;
+    display: flex;    
+}
+.s1{
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: 0.5s; 
+}
+
+.s1:hover{
+    color:white;
+    transform: scale(0.8)translateY(-15px);
+}
+
+.s2{
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: 0.5s;  
+}
+.s2:hover{
+    color:white;
+    transform: scale(0.8)translateY(-15px);
+}
+
+.s3{
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: 0.5s;  
+}
+.s3:hover{
+    color:white;
+    transform: scale(0.8)translateY(-15px);
+}
+
+
+.s4{
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: 0.5s;  
+}
+.s4:hover{
+    color:white;
+    transform: scale(0.8)translateY(-15px);
+}
+
+.a2>p>a{
+    text-decoration:none;
+    color: black;
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: 0.5s;  
+}
+.a2>p>a:hover{
+    color:white;
+    background-color: blue;
+    transform: scale(0.8)translateY(-15px);
+}
+.a3>p>a{
+    text-decoration:none;
+    color: black;
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: 0.5s;  
+}
+.a3>p>a:hover{
+    color:white;
+    background-color: blue;
+    transform: scale(0.8)translateY(-15px);
+}
+.a4>p>a{
+    text-decoration:none;
+    color: black;
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: 0.5s;  
+}
+.a4>p>a:hover{
+    color:white;
+    background-color: blue;
+    transform: scale(0.8)translateY(-15px);
+}
+.a5>p>a{
+    text-decoration:none;
+    color: black;
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: 0.5s;  
+}
+.a5>p>a:hover{
+    color:white;
+    background-color: blue;
+    transform: scale(0.8)translateY(-15px);
+}
+.a6>p>a{
+    text-decoration:none;
+    color: black;
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: 0.5s;  
+}
+.a6>p>a:hover{
+    color:white;
+    background-color: blue;
+    transform: scale(0.8)translateY(-15px);
+}
+/* .showcase>video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 310vh;
+    object-fit: cover;
+} */
